@@ -34,6 +34,10 @@ body {
 	position: relative;
 	left:20px;
 } 
+#QuestionMark {
+	position: relative;
+	margin-top:10px;
+} 
 .mapContainer {
 	position:relative;
 	border: 1px solid black;
