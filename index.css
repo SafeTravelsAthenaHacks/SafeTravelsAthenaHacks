@@ -1,11 +1,11 @@
 body {
 	background-color: #ffe6cc;
-	font-family: 'News Cycle';
+	font-family: 'Open Sans Condensed';
 	height: 100%;
 }
 
 .title {
-	font-family: 'News Cycle';
+	font-family: 'Open Sans Condensed';
 	font-size: 200px;
 	left: 130px;
 	position: relative;
@@ -14,7 +14,7 @@ body {
 }
 
 .help {
-	font-family:'News Cycle';
+	font-family:'Open Sans Condensed';
 	font-size: 25px;
 	position: relative;
 	text-align: center;
