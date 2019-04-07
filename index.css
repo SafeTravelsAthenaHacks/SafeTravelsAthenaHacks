@@ -15,7 +15,7 @@ body {
 
 .help {
 	font-family:'Open Sans Condensed';
-	font-size: 25px;
+	font-size: 100px;
 	position: relative;
 	text-align: center;
 	color: #999999;
@@ -23,8 +23,8 @@ body {
 .mapContainer {
 	position:relative;
 	border: 1px solid black;
-	height: 500px;
-	width: 1050px;
+	height: 900px;
+	width: 650px;
 	left: 12.5%;
 	margin-top: 2.5%;
 }
