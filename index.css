@@ -213,9 +213,13 @@ background-color: #ffe6cc;
   cursor: pointer; /* Cursor on hover */
 }
 
-#SubmitButton {
+#SubmitButtonDanger {
 	margin-right:30px;
 	margin-top: 250px;
+}
+#SubmitButtonDirections {
+	margin-right:30px;
+	margin-top: 50px;
 }
 #StartSearch {
 	text-align: center;
