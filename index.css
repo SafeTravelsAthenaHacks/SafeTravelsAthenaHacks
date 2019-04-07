@@ -7,7 +7,7 @@ body {
 .title {
 	font-family: 'Open Sans Condensed';
 	font-size: 225px;
-	left: 80px;
+	left: 90px;
 	position: relative;
 	color: #666666;
 }
@@ -37,10 +37,10 @@ body {
 .mapContainer {
 	position:relative;
 	border: 1px solid black;
-	height: 1200px;
-	width: 800px;
+	height: 1150px;
+	width: 810px;
 	left: 12%;
-	margin-top: 5%;
+	margin-top: 10%;
 }
 
 #map {
