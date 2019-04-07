@@ -18,15 +18,16 @@ body {
 	position: relative;
 	text-align: center;
 	color: #999999;
-	margin-top: 0px;
+	margin-top: -25px;
 	left: 25px;
+	padding-bottom: 25px;
 }
 .mapContainer {
 	position:relative;
 	border: 1px solid black;
-	height: 1200px;
-	width: 750px;
-	left: 12.5%;
+	height: 1225px;
+	width: 775px;
+	left: 12%;
 	margin-top: 2.5%;
 }
 
@@ -34,6 +35,19 @@ body {
 	position: relative;
 	height:100%;
 	width:100%;
+}
+
+.button {
+	font-family:'Open Sans Condensed';
+  	background-color: transparent; /* Green */
+  	border: 1px solid #999999;
+  	color: #999999;
+ 	padding: 25px 50px;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+  	font-size: 65px;
+  	margin-left: 100px;
 }
 
 .danger {
