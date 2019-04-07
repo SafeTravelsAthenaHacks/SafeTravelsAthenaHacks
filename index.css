@@ -12,15 +12,23 @@ body {
 	color: #666666;
 }
 
-.help {
-	font-family:'Open Sans Condensed';
+#Help {
+	position: relative;
+	/* font-family:'Open Sans Condensed';
 	font-size: 100px;
 	position: relative;
 	text-align: center;
 	color: #999999;
 	margin-top: -25px;
 	left: 25px;
-	padding-bottom: 25px;
+	padding-bottom: 25px; */
+}
+#Directions {
+	margin-left: 100px;
+}
+
+#Danger {
+	margin-left: 200px;
 }
 .mapContainer {
 	position:relative;
