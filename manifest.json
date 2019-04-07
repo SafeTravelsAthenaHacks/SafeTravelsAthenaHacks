@@ -1,0 +1,15 @@
+{
+  "short_name": "Safe Travels",
+  "name": "Safe Travels",
+  "icons": 
+    {
+      "src": "/images/path.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+  "start_url": "/",
+  "background_color": "#ffe6cc",
+  "display": "standalone",
+  "scope": "/",
+  "theme_color": "#ffe6cc"
+}
