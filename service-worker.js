@@ -1,8 +1,8 @@
 var CACHE_NAME = 'my-site-cache-v1';
 var urlsToCache = [
   '/',
-  '/styles/main.css',
-  '/script/main.js'
+  '/SafeTravelsAthenaHacks/index.css',
+  '/SafeTravelsAthenaHacks/main.js'
 ];
 
 self.addEventListener('install', function(event) {
