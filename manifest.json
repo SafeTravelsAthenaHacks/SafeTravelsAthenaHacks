@@ -1,12 +1,13 @@
 {
   "short_name": "Safe Travels",
   "name": "Safe Travels",
-  "icons": 
+  "icons": [
     {
-      "src": "/images/path.png",
+      "src": "/SafeTravelsAthenaHacks/images/path.png",
       "type": "image/png",
       "sizes": "192x192"
-    },
+    }
+   ],
   "start_url": "/SafeTravelsAthenaHacks",
   "background_color": "#ffe6cc",
   "display": "standalone",
