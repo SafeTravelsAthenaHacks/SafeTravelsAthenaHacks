@@ -90,7 +90,7 @@
 <div class="slidecontainer">
   <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
 </div>
-<button class="button" id="SubmitButton">Submit</button>
+<button class="button" id="SubmitButton" onclick = "exit()">Submit</button>
 </div>
 <div id= "Question">Click Help if you are in serious danger.</br>
 </br>Click Directions if you need informed directions for the safest route to your destination.
@@ -100,6 +100,7 @@
 <button class="ExitButton" id ="ExitButton" onclick = "exit()">X</button>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAHFeFGiB5__HhJNndkjDfPb1f79lCDMMA&callback=initMap"
     async defer></script>
+
     
 <script type="text/javascript" src="/SafeTravelsAthenaHacks/main.js" async></script>
 <script type="text/javascript" src="/SafeTravelsAthenaHacks/service-worker.js" async></script>
