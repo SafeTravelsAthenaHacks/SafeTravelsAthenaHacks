@@ -41,10 +41,11 @@ body {
 .mapContainer {
 	position:relative;
 	border: 1px solid black;
-	height: 1150px;
+	height: 1050px;
 	width: 810px;
 	left: 12%;
 	margin-top: 5%;
+	padding-bottom:5%;
 }
 
 #map {
