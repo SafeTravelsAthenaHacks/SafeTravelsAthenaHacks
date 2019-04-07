@@ -219,8 +219,13 @@ background-color: #ffe6cc;
 }
 #StartSearch {
 	text-align: center;
+	
 }
 
 #DestinationSearch {
 	text-align: center;
+	font-family: 'Open Sans Condensed';
+	color: #999999;
+	border: 1px solid #999999;
+	background-color: transparent;
 }
