@@ -7,9 +7,9 @@
       "type": "image/png",
       "sizes": "192x192"
     },
-  "start_url": "/",
+  "start_url": "/SafeTravelsAthenaHacks",
   "background_color": "#ffe6cc",
   "display": "standalone",
-  "scope": "/",
+  "scope": "/SafeTravelsAthenaHacks/",
   "theme_color": "#ffe6cc"
 }
