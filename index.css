@@ -6,10 +6,9 @@ body {
 
 .title {
 	font-family: 'Open Sans Condensed';
-	font-size: 250px;
-	left: 50px;
+	font-size: 225px;
+	left: 75px;
 	position: relative;
-	/*  */
 	color: #666666;
 }
 
@@ -19,12 +18,14 @@ body {
 	position: relative;
 	text-align: center;
 	color: #999999;
+	margin-top: 0px;
+	left: 25px;
 }
 .mapContainer {
 	position:relative;
 	border: 1px solid black;
-	height: 900px;
-	width: 650px;
+	height: 1200px;
+	width: 750px;
 	left: 12.5%;
 	margin-top: 2.5%;
 }
