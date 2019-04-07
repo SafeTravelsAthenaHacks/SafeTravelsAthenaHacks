@@ -10,6 +10,6 @@
    ],
   "start_url": "/SafeTravelsAthenaHacks",
   "background_color": "#ffe6cc",
-  "display": "standalone",
+  "display": "browser",
   "theme_color": "#ffe6cc"
 }
