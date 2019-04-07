@@ -31,7 +31,6 @@ body {
 } 
 .mapContainer {
 	position:relative;
-	border: 1px solid black;
 	height: 1050px;
 	width: 810px;
 	left: 12%;
