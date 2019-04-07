@@ -14,11 +14,22 @@
 	    	addMarker(event.latLng, map);
 	    });
 	}
-	function help() {
-		if (document.getElementById('Help').clicked == true) {
-			alert("hi");
-		}
+	function overlay() {
+		document.getElementById("overlay").style.display = "block";
 	}
+	function help() {
+		overlay();
+	}
+	function directions() {
+		overlay();
+	}
+	function danger() {
+		overlay();
+	}
+	function question() {
+		overlay();
+	}
+	
 	
 	
 </script>
@@ -35,11 +46,12 @@
 
 <div class = "title">Safe Travels</div>
 
-<button class="button" id="Help" onclick = "help()">Help</button>
-<button class="button" id="Directions">Directions</button>
-<button class="button" id="Danger">Danger</button>
+<button class="button" id="HelpButton" onclick = "help()">Help</button>
+<div id ="overlay"></div>
+<button class="button" id="DirectionsButton" onclick = "directions()">Directions</button>
+<button class="button" id="DangerButton" onclick = "danger()">Danger</button>
 <div class = "mapContainer"><div id = "map"></div></div>
-<button class="QuestionButton" id ="QuestionMark">?</button>
+<button class="QuestionButton" id ="QuestionMark" onclick = "question()">?</button>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAHFeFGiB5__HhJNndkjDfPb1f79lCDMMA&callback=initMap"
     async defer></script>
     
