@@ -8,7 +8,7 @@
       "sizes": "192x192"
     }
    ],
-  "start_url": "/SafeTravelsAthenaHacks",
+  "start_url": "/",
   "background_color": "#ffe6cc",
   "display": "standalone",
   "scope": "/SafeTravelsAthenaHacks/",
