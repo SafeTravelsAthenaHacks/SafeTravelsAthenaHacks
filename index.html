@@ -43,25 +43,14 @@
 		document.getElementById("ExitButton").style.display = "none";
 		
 	}
-	function getLocation(){
-		  //Gets current position of user
-		  // Check whether browser supports Geolocation API or not
-		  if (navigator.geolocation) {
-		  } else if (document.getElementById('Danger').clicked == true) {
-		      map.setCenter(navigator.geolocation.getCurrentPosition(getPosition);)
-		      var circle = new.google.maps.Circle({
-		        strokeColor: '#FF0000',
-		        strokeOpacity: 0.8,
-		        strokeWeight: 2,
-		        fillColor: '#FF0000',
-		        fillOpacity: 0.2,
-		        map: map,
-		        center: {position.coords.latitude, position.coords.longitude}
-		      });
-		  } else { // Not supported
-			alert("Oops! This browser does not support HTML Geolocation.");
-		  }
-		}
+	var slider = document.getElementById("myRange");
+	var output = document.getElementById("demo");
+	output.innerHTML = slider.value; // Display the default slider value
+
+	// Update the current slider value (each time you drag the slider handle)
+	slider.oninput = function() {
+	  output.innerHTML = this.value;
+	}
 
 	
 	
@@ -82,7 +71,7 @@
 <button class="button" id="HelpButton" onclick = "help()">Help</button>
 <div id ="overlay"></div>
 <button class="button" id="DirectionsButton" onclick = "directions()">Directions</button>
-<button class="button" id="DangerButton" onclick = "getLocation()">Danger</button>
+<button class="button" id="DangerButton" onclick = "danger()">Danger</button>
 <div class = "mapContainer"><div id = "map"></div></div>
 <button class="QuestionButton" id ="QuestionMark" onclick = "question()">?</button>
 
@@ -96,6 +85,12 @@
 
 </div>
 <div id= "Danger">How dangerous is the area around you?</br></br>
+
+
+<div class="slidecontainer">
+  <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+</div>
+<button class="button" id="SubmitButton">Submit</button>
 </div>
 <div id= "Question">Click Help if you are in serious danger.</br>
 </br>Click Directions if you need informed directions for the safest route to your destination.
