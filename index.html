@@ -43,7 +43,26 @@
 		document.getElementById("ExitButton").style.display = "none";
 		
 	}
-	
+	function getLocation(){
+		  //Gets current position of user
+		  // Check whether browser supports Geolocation API or not
+		  if (navigator.geolocation) {
+		  } else if (document.getElementById('Danger').clicked == true) {
+		      map.setCenter(navigator.geolocation.getCurrentPosition(getPosition);)
+		      var circle = new.google.maps.Circle({
+		        strokeColor: '#FF0000',
+		        strokeOpacity: 0.8,
+		        strokeWeight: 2,
+		        fillColor: '#FF0000',
+		        fillOpacity: 0.2,
+		        map: map,
+		        center: {position.coords.latitude, position.coords.longitude}
+		      });
+		  } else { // Not supported
+			alert("Oops! This browser does not support HTML Geolocation.");
+		  }
+		}
+
 	
 	
 </script>
