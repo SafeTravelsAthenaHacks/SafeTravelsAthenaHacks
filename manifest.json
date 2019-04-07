@@ -11,5 +11,6 @@
   "start_url": "/",
   "background_color": "#ffe6cc",
   "display": "standalone",
+  "scope": "/SafeTravelsAthenaHacks",
   "theme_color": "#ffe6cc"
 }
