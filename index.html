@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript">
+	//initializes map
+	var map;
+	function initMap() {
+		map = new google.maps.Map(document.getElementById('map'), {
+	    	center: {lat: 34.02, lng: -118.285},
+	      	zoom: 15
+	    });
+	    google.maps.event.addListener(map, 'click', function(event) {
+	    	addMarker(event.latLng, map);
+	    });
+	}
+</script>
+<meta charset="UTF-8">
+<title>Safe Travels</title>
+
+<link rel="stylesheet" type="text/css" href="index.css" />
+<link href="https://fonts.googleapis.com/css?family=News+Cycle" rel="stylesheet">
+<link rel="manifest" href="/manifest.json">
+
+</head>
+<body>
+
+<div class = "title">Safe Travels</div>
+<div class = "help">Do you need help?</div>
+<div class = "mapContainer"><div id = "map"></div></div>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAHFeFGiB5__HhJNndkjDfPb1f79lCDMMA&callback=initMap"
+    async defer></script>
+</body>
+</html>

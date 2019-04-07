@@ -1,0 +1,43 @@
+body {
+	background-color: #ffe6cc;
+	font-family: 'News Cycle';
+	height: 100%;
+}
+
+.title {
+	font-family: 'News Cycle';
+	font-size: 100px;
+	position: relative;
+	text-align: center;
+	color: #666666;
+}
+
+.help {
+	font-family:'News Cycle';
+	font-size: 25px;
+	position: relative;
+	text-align: center;
+	color: #999999;
+}
+.mapContainer {
+	position:relative;
+	border: 1px solid black;
+	height: 500px;
+	width: 1050px;
+	left: 12.5%;
+	margin-top: 2.5%;
+}
+
+#map {
+	position: relative;
+	height:100%;
+	width:100%;
+}
+
+.danger {
+	
+}
+
+.tips {
+	
+}
