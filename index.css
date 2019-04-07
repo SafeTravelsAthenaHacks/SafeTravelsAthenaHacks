@@ -97,7 +97,7 @@ body {
 	left: 12%;
 	margin-top: 5%;
 	padding-bottom:5%;
-	position: relative;
+	position: fixed;
 	display: none;
 	z-index: 2;
 	color: #999999;
