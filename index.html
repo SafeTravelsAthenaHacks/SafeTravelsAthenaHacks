@@ -30,6 +30,10 @@
 	function question() {
 		overlay();
 	}
+	function exit() {
+		document.getElementById("overlay").style.display = "none";
+		document.getElementById("Help").style.display = "none";
+	}
 	
 	
 	
@@ -55,6 +59,7 @@
 <button class="QuestionButton" id ="QuestionMark" onclick = "question()">?</button>
 
 <div id= "Help">If this is an emergency, please exit and call 911.</div>
+<button class="ExitButton" id ="ExitButton" onclick = "exit()">X</button>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAHFeFGiB5__HhJNndkjDfPb1f79lCDMMA&callback=initMap"
     async defer></script>
     

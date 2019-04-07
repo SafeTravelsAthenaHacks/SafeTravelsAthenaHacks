@@ -102,7 +102,7 @@ body {
 	padding-top: 10%;
 	padding-left:10%;
 	padding-right:10%;
-	position: fixed;
+	position: relative;
 	display: none;
 	z-index: 2;
 	color: #999999;
@@ -113,4 +113,12 @@ body {
 
 .tips {
 	
+}
+#ExitButton {
+	background-color: #ffe6cc;
+	font-family: 'Open Sans Condensed';
+	font-size: 65px;
+	left: 12%;
+	top: 15%;
+	position: relative;
 }
