@@ -19,6 +19,7 @@
 	}
 	function help() {
 		overlay();
+		document.getElementById("Help").style.display = "block";
 	}
 	function directions() {
 		overlay();
@@ -47,6 +48,7 @@
 <div class = "title">Safe Travels</div>
 
 <button class="button" id="HelpButton" onclick = "help()">Help</button>
+<div id= "Help">If this is an emergency, please exit and call 911.</div>
 <div id ="overlay"></div>
 <button class="button" id="DirectionsButton" onclick = "directions()">Directions</button>
 <button class="button" id="DangerButton" onclick = "danger()">Danger</button>
